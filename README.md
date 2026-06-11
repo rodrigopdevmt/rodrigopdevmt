@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:38A1F3,50:5E5FE7,100:9A4BE0&height=250&section=header&text=Rodrigo%20Dev%20MT&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20•%20Mobile%20•%20Cloud%20•%20IA&descAlignY=60&descSize=20"/>
 
-</div>sdsd
+</div>
 <!-- ✨ Frase Rotativa Animada (Serviço Oficial) -->
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&pause=1000&color=38A1F3&center=true&vCenter=true&width=900&lines=Ol%C3%A1%2C+seja+bem-vindo+ao+meu+perfil!+%F0%9F%91%8B;Full+Stack+Developer+%E2%80%A2+Mobile+%E2%80%A2+Cloud+%E2%80%A2+IA+%F0%9F%9A%80;Web+Scraping+%26+Automa%C3%A7%C3%B5es+Escal%C3%A1veis+%F0%9F%93%8A;Transformando+ideias+em+software+de+alto+impacto+%E2%9A%A1;C%C3%B3digo+limpo+%2B+arquitetura+s%C3%B3lida+%F0%9F%92%8E"/>
