@@ -77,15 +77,56 @@ Sistema avançado para monitoramento, extração, processamento e automação de
 
 ---
 
-# 👨‍ Sobre Mim
+# 👨‍💻 Sobre Mim
 
-* 🚀 Desenvolvimento Web Moderno
-* 📱 Aplicativos Android e iOS
-* 🤖 Inteligência Artificial
-* ☁️ AWS e Cloud Computing
-* 💳 Integrações PIX e Gateways de Pagamento
-* 🔄 Automações Empresariais
-* 🌐 APIs e Microsserviços
+<div align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&pause=500&color=9A4BE0&center=true&vCenter=true&width=800&lines=Desenvolvedor+Full+Stack+%F0%9F%9A%80;Natural+de+Mato+Grosso+%F0%9F%8C%B4;5%2B+anos+transformando+ideias+em+c%C3%B3digo+%E2%9A%A1"/>
+
+</div>
+
+> 💬 *"Olá! Sou o **Rodrigo Dev MT**, desenvolvedor full stack natural de Mato Grosso. Minha jornada na tecnologia começou há mais de **cinco anos**, guiada pela paixão por criar soluções inovadoras que realmente façam diferença na vida das pessoas."*
+
+<br>
+
+<div align="center">
+
+### 🎯 O que eu faço de melhor
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🛠️ Especialidades
+- 🚀 **Desenvolvimento Web Moderno** — React, Next.js, Node.js
+- 📱 **Apps Mobile** — Android & iOS nativos e híbridos
+- 🤖 **Inteligência Artificial** — Integração de LLMs e automações inteligentes
+- ☁️ **Cloud Computing** — AWS, deploy escalável e infraestrutura como código
+
+</td>
+<td width="50%" valign="top">
+
+#### ⚡ Soluções Empresariais
+- 💳 **Pagamentos** — PIX, gateways e integrações financeiras
+- 🔄 **Automações** — Web scraping, bots e workflows escaláveis
+- 🌐 **APIs & Microsserviços** — Arquitetura distribuída e robusta
+- 📊 **Data Processing** — Extração, transformação e análise de dados
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/📍_Barra_do_Garças-MT-38A1F3?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/🎓_5%2B_Anos_de_Experiência-5E5FE7?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/🚀_100%25_Dedicação-9A4BE0?style=for-the-badge"/>
+
+</div>
 
 ---
 
@@ -147,9 +188,14 @@ Sistema avançado para monitoramento, extração, processamento e automação de
 
 <br>
 
+<!-- 🔢 CONTADOR DE VISITAS REAL -->
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=rodrigopdevmt&style=for-the-badge&color=blueviolet"/>
+### 👁️ Visitantes do Perfil
+
+<img src="https://komarev.com/ghpvc/?username=rodrigopdevmt&style=for-the-badge&color=blueviolet&label=VISUALIZA%C3%87%C3%95ES"/>
+
+<img src="https://profile-counter.glitch.me/rodrigopdevmt/count.svg" alt="Contador de visitas real"/>
 
 </div>
 
