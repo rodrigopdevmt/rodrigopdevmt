@@ -73,45 +73,86 @@ Sistema avançado para monitoramento, extração, processamento e automação de
 </div>
 
 ---
-
-
 # 👨‍💻 Sobre Mim
 
 <div align="center">
 
-<!-- 📸 SUA FOTO - IMAGEM CORRETA -->
-<img src="https://i.imgur.com/rTGef04.png" alt="Rodrigo Dev MT" width="280" style="border-radius: 50%; border: 5px solid #38A1F3; box-shadow: 0 10px 30px rgba(56, 161, 243, 0.3); margin-bottom: 20px;"/>
+<!-- 📸 FOTO COM EFEITO NEON -->
+<img src="https://i.imgur.com/rTGef04.png" alt="Rodrigo Dev MT" width="200" style="border-radius: 50%; border: 3px solid transparent; background: linear-gradient(#0d1117, #0d1117) padding-box, linear-gradient(135deg, #38A1F3, #9A4BE0, #38A1F3) border-box; box-shadow: 0 0 40px rgba(154, 75, 224, 0.4), 0 0 80px rgba(56, 161, 243, 0.2); margin-bottom: 20px;"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&pause=500&color=9A4BE0&center=true&vCenter=true&width=800&lines=Desenvolvedor+Full+Stack+%F0%9F%9A%80;Natural+de+Mato+Grosso+%F0%9F%8C%B4;15+anos+transformando+ideias+em+c%C3%B3digo+%E2%9A%A1"/>
+<!-- TÍTULO ANIMADO -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&pause=1000&color=38A1F3&center=true&vCenter=true&width=900&lines=Desenvolvedor+Full+Stack+%F0%9F%9A%80;Mobile+%7C+Cloud+%7C+AI+%E2%9A%A1;15+anos+transformando+ideias+em+c%C3%B3digo"/>
 
 </div>
 
-> 💬 *"Olá! Sou o **Rodrigo Dev MT**, desenvolvedor full stack natural de Mato Grosso. Minha jornada na tecnologia começou há mais de **15 anos**, guiada pela paixão por criar soluções inovadoras que realmente façam diferença na vida das pessoas."*
+<br>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
 
 <br>
 
 <div align="center">
 
-### 🎯 O que eu faço de melhor
+> 💬 *"Olá! Sou o **Rodrigo Dev MT**, desenvolvedor full stack natural de Mato Grosso. Minha jornada na tecnologia começou há mais de **15 anos**, guiada pela paixão por criar soluções inovadoras que realmente façam diferença na vida das pessoas."*
+
+</div>
+
+<br>
+
+## 🎯 O que eu faço de melhor
+
+<div align="center">
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-#### 🛠️ Especialidades
-- 🚀 **Desenvolvimento Web Moderno** — React, Next.js, Node.js
-- 📱 **Apps Mobile** — Android & iOS nativos e híbridos
-- 🤖 **Inteligência Artificial** — Integração de LLMs e automações inteligentes
-- ☁️ **Cloud Computing** — AWS, deploy escalável e infraestrutura como código
+### 🛠️ Especialidades
+
+<div align="center">
+
+![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+
+</div>
+
+- 🚀 **Desenvolvimento Web Moderno**
+  - React, Next.js, Node.js
+- 📱 **Apps Mobile**
+  - Android & iOS nativos e híbridos
+- 🤖 **Inteligência Artificial**
+  - Integração de LLMs e automações inteligentes
+- ☁️ **Cloud Computing**
+  - AWS, deploy escalável e infraestrutura como código
 
 </td>
 <td width="50%" valign="top">
 
-#### ⚡ Soluções Empresariais
-- 💳 **Pagamentos** — PIX, gateways e integrações financeiras
-- 🔄 **Automações** — Web scraping, bots e workflows escaláveis
-- 🌐 **APIs & Microsserviços** — Arquitetura distribuída e robusta
-- 📊 **Data Processing** — Extração, transformação e análise de dados
+### ⚡ Soluções Empresariais
+
+<div align="center">
+
+![AWS](https://img.shields.io/badge/-AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+</div>
+
+- 💳 **Pagamentos**
+  - PIX, gateways e integrações financeiras
+- 🔄 **Automações**
+  - Web scraping, bots e workflows escaláveis
+- 🌐 **APIs & Microsserviços**
+  - Arquitetura distribuída e robusta
+- 📊 **Data Processing**
+  - Extração, transformação e análise de dados
 
 </td>
 </tr>
@@ -121,144 +162,102 @@ Sistema avançado para monitoramento, extração, processamento e automação de
 
 <br>
 
-<div align="center">
-
-<img src="https://img.shields.io/badge/📍_Barra_do_Garças-MT-38A1F3?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/🎓_15%2B_Anos_de_Experiência-5E5FE7?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/🚀_100%25_Dedicação-9A4BE0?style=for-the-badge"/>
-
-</div>
-
----
-
-# 💻 Tech Stack
-
-<!-- 🎬 ANIMAÇÃO TECH STACK -->
-<div align="center">
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&pause=800&color=38A1F3&center=true&vCenter=true&width=700&height=60&lines=Tecnologias+que+eu+domino+%F0%9F%92%BB;Front-end+%E2%80%A2+Back-end+%E2%80%A2+Mobile+%E2%80%A2+Cloud"/>
-
-<br>
-
-<!-- Animação de ícones com efeito hover -->
-<div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); padding: 30px; border-radius: 15px; border: 2px solid #38A1F3;">
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,typescript,tailwind,supabase,postgres,docker,aws,linux,kotlin,androidstudio,git,github,vscode,python,fastapi,mongodb,redis&perline=10"/>
-
-</div>
-
-<br>
-
-<!-- Barras de progresso animadas para cada tecnologia -->
-<details>
-<summary style="font-size: 18px; color: #38A1F3; cursor: pointer;">📊 Ver nível de proficiência em cada tecnologia</summary>
-
-<br>
-
-**Frontend**
-<p align="center">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
-</p>
-
-**Backend**
-<p align="center">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-</p>
-
-**Mobile**
-<p align="center">
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white"/>
-</p>
-
-**Cloud & DevOps**
-<p align="center">
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-</p>
-
-</details>
-
-</div>
-
----
-
-# 🔥 Projetos em Destaque
+## 🛠️ Tech Stack
 
 <div align="center">
 
-<a href="https://github.com/rodrigopdevmt/web-scraping">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=rodrigopdevmt&repo=web-scraping&theme=tokyonight&hide_border=true"/>
+### Frontend & Mobile
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Kotlin](https://img.shields.io/badge/-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![Android](https://img.shields.io/badge/-Android-3DDC84?style=flat-square&logo=android&logoColor=white)
+
+### Backend & Cloud
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![AWS](https://img.shields.io/badge/-AWS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+### Database & Tools
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+</div>
+
+<br>
+
+<div align="center">
+
+### 📊 GitHub Stats
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=rodrigopdevmt&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=38A1F3&icon_color=9A4BE0">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=rodrigopdevmt&show_icons=true&theme=radical&hide_border=true&title_color=38A1F3&icon_color=9A4BE0">
+  <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=rodrigopdevmt&show_icons=true&theme=radical&hide_border=true&title_color=38A1F3&icon_color=9A4BE0">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=rodrigopdevmt&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=38A1F3">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=rodrigopdevmt&layout=compact&theme=radical&hide_border=true&title_color=38A1F3">
+  <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rodrigopdevmt&layout=compact&theme=radical&hide_border=true&title_color=38A1F3">
+</picture>
+
+</div>
+
+<br>
+
+<div align="center">
+
+### 🏆 GitHub Trophies
+
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=rodrigopdevmt&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=15)
+
+</div>
+
+<br>
+
+<div align="center">
+
+### 📍 Localização & Contato
+
+<img src="https://img.shields.io/badge/📍_Barra_do_Garças-MT-38A1F3?style=for-the-badge&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/🎓_15%2B_Anos-5E5FE7?style=for-the-badge&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/🚀_100%25_Dedicação-9A4BE0?style=for-the-badge&labelColor=0d1117"/>
+
+<br>
+
+### 🌐 Vamos nos conectar?
+
+<a href="https://www.rodrigodevmt.com.br" target="_blank">
+  <img src="https://img.shields.io/badge/🌐_Portfolio-38A1F3?style=for-the-badge&labelColor=0d1117"/>
+</a>
+<a href="https://github.com/rodrigopdevmt" target="_blank">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"/>
+</a>
+<a href="https://www.linkedin.com/in/rodrigo-dev-mt-929293372" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117"/>
+</a>
+<a href="https://t.me/rodrigodevmt" target="_blank">
+  <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0d1117"/>
+</a>
+<a href="mailto:dev@rodrigodevmt.com.br">
+  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117"/>
+</a>
+<a href="https://wa.me/5566996184323" target="_blank">
+  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=0d1117"/>
 </a>
 
 </div>
 
----
-
-# 📊 Estatísticas GitHub
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=rodrigopdevmt&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=rodrigopdevmt&theme=tokyonight&hide_border=true"/>
-
-</div>
-
 <br>
 
 <div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=rodrigopdevmt&theme=tokyo-night&hide_border=true&area=true"/>
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=🚀&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=75"/>
 </div>
 
----
-
-# 🌎 Contato
-
-<div align="center">
-
-📧 [dev@rodrigodevmt.com.br](mailto:dev@rodrigodevmt.com.br)
-
-📱 +55 (66) 99618-4323
-
-🌐 https://www.rodrigodevmt.com.br
-
-📍 Barra do Garças - MT - Brasil
-
-</div>
-
-<br>
-
-<!-- 🔢 CONTADOR DE VISITAS REAL -->
-<div align="center">
-
-### 👁️ Visitantes do Perfil
-
-<img src="https://komarev.com/ghpvc/?username=rodrigopdevmt&style=for-the-badge&color=blueviolet&label=VISUALIZA%C3%87%C3%95ES"/>
-
-<img src="https://profile-counter.glitch.me/rodrigopdevmt/count.svg" alt="Contador de visitas real"/>
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38A1F3,50:5E5FE7,100:9A4BE0&height=120&section=footer"/>
-
-</div>
-
-<div align="center">
-
-### ⚡ Transformando ideias em software de alto impacto
+as em software de alto impacto
 
 </div>
