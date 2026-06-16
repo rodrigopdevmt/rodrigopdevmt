@@ -1,3 +1,6 @@
+</div>
+
+<br>
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:38A1F3,50:5E5FE7,100:9A4BE0&height=250&section=header&text=Rodrigo%20Dev%20MT&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20•%20Mobile%20•%20Cloud%20•%20IA&descAlignY=60&descSize=20"/>
@@ -87,6 +90,14 @@ Sistema avançado para monitoramento, extração, processamento e automação de
 
 <br>
 
+
+<div align="center">
+
+> 💬 *"Olá! Sou o **Rodrigo Dev MT**, desenvolvedor full stack natural de Mato Grosso. Minha jornada na tecnologia começou há mais de **15 anos**, guiada pela paixão por criar soluções inovadoras que realmente façam diferença na vida das pessoas."*
+
+</div>
+<br>
+
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
@@ -94,17 +105,27 @@ Sistema avançado para monitoramento, extração, processamento e automação de
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
-
 <br>
-
 <div align="center">
 
-> 💬 *"Olá! Sou o **Rodrigo Dev MT**, desenvolvedor full stack natural de Mato Grosso. Minha jornada na tecnologia começou há mais de **15 anos**, guiada pela paixão por criar soluções inovadoras que realmente façam diferença na vida das pessoas."*
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff0000,50:ff4d6d,100:ff0000&height=3"/>
+
+<h2>❤️ DEUS É FIEL ❤️</h2>
+
+<h4>
+✨ Entrega o teu caminho ao Senhor; confia nele, e o mais ele fará. ✨
+</h4>
+
+<h4>
+📖 Salmos 37:5
+</h4>
+
+<img width="220"
+src="https://media.tenor.com/8mCjP4s4L7gAAAAi/heart-love.gif"/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff0000,50:ff4d6d,100:ff0000&height=3"/>
 
 </div>
-
-<br>
-
 ## 🎯 O que eu faço de melhor
 
 <div align="center">
