@@ -1,18 +1,200 @@
-name: Snake
-on: [push, workflow_dispatch]
-permissions:
-  contents: write
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: rodrigopdevmt
-          outputs: dist/snake.svg
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cobrinha - RODRIGO DEV MT</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #0d1117;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            padding: 20px;
+        }
+        h1 { color: #f0f6fc; margin-bottom: 30px; font-size: 24px; }
+        .container {
+            background: #161b22;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+            width: 100%;
+            max-width: 900px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🐍 Cobrinha do GitHub</h1>
+        <div id="root"></div>
+    </div>
+
+    <script type="text/babel">
+        const { useEffect, useMemo, useRef, useState } = React;
+
+        const ROWS = 7;
+        const CELL = 13;
+        const GAP = 3;
+        const STEP_MS = 55;
+        const LETTER_GAP = 1;
+        const SPACE_WIDTH = 3;
+
+        const SNAKE_COLOR = "#39d353";
+        const DRAWN_COLOR = "#26a641";
+        const EMPTY_COLOR = "rgba(255,255,255,0.06)";
+
+        const FONT = {
+          R: ["11110", "10001", "10001", "11110", "10100", "10010", "10001"],
+          O: ["01110", "10001", "10001", "10001", "10001", "10001", "01110"],
+          D: ["11110", "10001", "10001", "10001", "10001", "10001", "11110"],
+          I: ["01110", "00100", "00100", "00100", "00100", "00100", "01110"],
+          G: ["01110", "10001", "10000", "10111", "10001", "10001", "01110"],
+          E: ["11111", "10000", "10000", "11110", "10000", "10000", "11111"],
+          V: ["10001", "10001", "10001", "10001", "10001", "01010", "00100"],
+          M: ["10001", "11011", "10101", "10101", "10001", "10001", "10001"],
+          T: ["11111", "00100", "00100", "00100", "00100", "00100", "00100"],
+          " ": ["", "", "", "", "", "", ""],
+        };
+
+        const TEXT = "RODRIGO DEV MT";
+
+        function buildLetters() {
+          const cells = [];
+          let offset = 0;
+
+          for (const ch of TEXT) {
+            if (ch === " ") { offset += SPACE_WIDTH; continue; }
+            const glyph = FONT[ch];
+            if (!glyph) { offset += 5 + LETTER_GAP; continue; }
+            const width = glyph[0].length;
+            for (let lc = 0; lc < width; lc++) {
+              for (let r = 0; r < ROWS; r++) {
+                if (glyph[r][lc] === "1") {
+                  cells.push({ c: offset + lc, r });
+                }
+              }
+            }
+            offset += width + LETTER_GAP;
+          }
+          return { cells, cols: offset };
+        }
+
+        function ContributionSnake() {
+          const { cells, cols } = useMemo(buildLetters, []);
+          const [head, setHead] = useState(0);
+          const rafRef = useRef(null);
+          const lastRef = useRef(0);
+          const pauseUntilRef = useRef(0);
+
+          const SNAKE_LEN = 6;
+          const TOTAL = cells.length;
+
+          useEffect(() => {
+            let mounted = true;
+            const tick = (t) => {
+              if (!mounted) return;
+              if (t < pauseUntilRef.current) {
+                rafRef.current = requestAnimationFrame(tick);
+                return;
+              }
+              if (t - lastRef.current >= STEP_MS) {
+                lastRef.current = t;
+                setHead((prev) => {
+                  if (prev >= TOTAL + SNAKE_LEN) {
+                    pauseUntilRef.current = t + 1600;
+                    return 0;
+                  }
+                  return prev + 1;
+                });
+              }
+              rafRef.current = requestAnimationFrame(tick);
+            };
+            rafRef.current = requestAnimationFrame(tick);
+            return () => {
+              mounted = false;
+              if (rafRef.current) cancelAnimationFrame(rafRef.current);
+            };
+          }, [TOTAL]);
+
+          const drawn = new Set();
+          const drawnCount = Math.min(head, TOTAL);
+          for (let i = 0; i < drawnCount; i++) {
+            drawn.add(`${cells[i].c}-${cells[i].r}`);
+          }
+
+          const snakeSet = new Map();
+          for (let i = 0; i < SNAKE_LEN; i++) {
+            const idx = head - i;
+            if (idx < 0 || idx >= TOTAL) continue;
+            const pos = cells[idx];
+            snakeSet.set(`${pos.c}-${pos.r}`, i);
+          }
+
+          const width = cols * (CELL + GAP);
+          const height = ROWS * (CELL + GAP);
+          const allCols = Array.from({ length: cols }, (_, i) => i);
+          const allRows = Array.from({ length: ROWS }, (_, i) => i);
+
+          return React.createElement(
+            "div",
+            { style: { width: "100%", overflowX: "auto" } },
+            React.createElement(
+              "svg",
+              {
+                viewBox: `0 0 ${width} ${height}`,
+                style: { display: "block", margin: "0 auto", maxWidth: "100%", height: "auto", minWidth: cols * 6 },
+                role: "img",
+                "aria-label": "Animação de cobrinha desenhando o texto RODRIGO DEV MT"
+              },
+              allCols.map((c) =>
+                allRows.map((r) => {
+                  const key = `${c}-${r}`;
+                  const snakeIdx = snakeSet.get(key);
+                  const isSnake = snakeIdx !== undefined;
+                  const isDrawn = drawn.has(key);
+
+                  let fill = EMPTY_COLOR;
+                  let opacity = 1;
+                  let glow = false;
+
+                  if (isSnake) {
+                    fill = SNAKE_COLOR;
+                    opacity = Math.max(0.5, 1 - snakeIdx / SNAKE_LEN);
+                    glow = true;
+                  } else if (isDrawn) {
+                    fill = DRAWN_COLOR;
+                  }
+
+                  return React.createElement("rect", {
+                    key,
+                    x: c * (CELL + GAP),
+                    y: r * (CELL + GAP),
+                    width: CELL,
+                    height: CELL,
+                    rx: 3,
+                    ry: 3,
+                    fill,
+                    opacity,
+                    style: {
+                      transition: isSnake ? "none" : "fill 0.25s ease",
+                      filter: glow ? "drop-shadow(0 0 4px rgba(57,211,83,0.9))" : "none",
+                    }
+                  });
+                })
+              )
+            )
+          );
+        }
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(React.createElement(ContributionSnake));
+    </script>
+</body>
+</html>
